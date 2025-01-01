@@ -1,0 +1,103 @@
+/* media queries */
+
+@media (max-width: 450px) {
+  header {
+    .list-microsoft-no-resp {
+      display: none;
+    }
+
+    .resp {
+      display: flex;
+      align-items: center;
+
+      .image-microsoft {
+        padding-left: 20%;
+      }
+
+      .btn-2 {
+        border: 0;
+        border-radius: 0;
+        background-color: transparent;
+      }
+
+      .list-dropdown-ul {
+        display: flex;
+      }
+    }
+  }
+
+  .slide {
+    .carousel-inner {
+      height: 52rem;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+      top: -5rem;
+    }
+
+    .img-carousel {
+      display: none;
+    }
+
+    .img-carousel-resp-800 {
+      display: none;
+    }
+
+    .img-carousel-resp {
+      display: block;
+    }
+
+    .carousel-content {
+      position: static;
+      margin-top: 2rem;
+      width: 90%;
+
+      h2 {
+        font-size: 2.4rem;
+      }
+    }
+
+    .hr-resp {
+      display: block;
+      width: 100%;
+      margin-top: 4rem;
+    }
+  }
+
+  .links {
+    flex-wrap: wrap;
+    padding: 2rem;
+    margin: 3rem 0;
+  }
+
+  .wrapper-container-cards {
+    flex-flow: column;
+    align-items: center;
+  }
+
+  .banner {
+    margin: 4rem 0;
+
+    .card {
+      position: static;
+      width: 90%;
+      padding: 2rem;
+    }
+  }
+
+  .social-medias {
+    margin: 3rem 0 1rem;
+  }
+
+  .btn-sticky {
+    position: static;
+    margin: 0;
+    padding: 0.41rem 1.2rem 5rem;
+  }
+
+  .footer {
+    flex-flow: column;
+    padding: 3rem 4rem;
+  }
+}
